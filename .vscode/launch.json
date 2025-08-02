@@ -2,13 +2,6 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "myriaddreamin.typst-debugger",
-      "request": "launch",
-      "name": "Ask for file name",
-      "program": "${workspaceFolder}/${command:AskForProgramName}",
-      "stopOnEntry": true
-    },
-    {
       "type": "node",
       "request": "attach",
       "name": "Node: Nodemon",
